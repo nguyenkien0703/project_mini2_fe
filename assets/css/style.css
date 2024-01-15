@@ -51,5 +51,25 @@
     cái bg-cover nó sẽ tự động cắt đi cái phần thừa để bg nó luôn full, nên bây giờ ta phỉa set thêm position cho cái ảnh 
     */
     background-position: center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.section-one .inner-wrap {
+    /* giả sử trong inner-wrap có inner-title và inner-desc, thì cái text-align: center này nó kiêu là 
+        căn giữ cho chính các inner-title và inner-desc, còn bây giờ có thêm cái max-width: 600 của cái thằng inner-wrap kia,
+        mà bây giờ muốn căn chính giữ cái inner-wrap này trog col-12 or row j đó, thì ta sử dụng: margin: 0 auto
+
+    */
+    /* text aline center, nó sẽ kiểu là  */
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.section-one .inner-title {
+    font-size: 32px;
+    color: #fff;
+}
+
 /* end section one  */
