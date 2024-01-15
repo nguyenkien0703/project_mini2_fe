@@ -70,6 +70,13 @@
 .section-one .inner-title {
     font-size: 32px;
     color: #fff;
+    margin-bottom: 10px;
+}
+.section-one .inner-desc {
+    color: #fff;
+    margin-bottom: 20px;
+    
+
 }
 
 /* end section one  */

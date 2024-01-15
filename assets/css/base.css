@@ -25,3 +25,30 @@ a:hover {
     text-decoration: none;
     color: var(--color-two)
 }
+/* button */
+.button {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 45px;
+    background: #fff;
+    color: var(--color-text);
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+
+
+}
+.button-two {
+    background: var(--color-two);
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    
+}
+.button-two:hover {
+    background: var(--color-one);
+    color: #fff;
+    transition: all 0.3s ease 0s;
+
+}
+
+/* end button */
