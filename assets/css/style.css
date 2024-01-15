@@ -75,8 +75,60 @@
 .section-one .inner-desc {
     color: #fff;
     margin-bottom: 20px;
-    
+
 
 }
 
 /* end section one  */
+/* section two  */
+.section-two {
+    margin-top: -240px;
+
+}
+
+.section-two .inner-box {
+    box-shadow: 0 2px 48px 0 rgba(0,0,0,0.1);
+    border-radius: 15px;
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.section-two .inner-box .inner-icon {
+    background: var(--color-one);
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+.section-two .inner-box:hover .inner-icon {
+    background: var(--color-two);
+    
+}
+/* 
+backgroung-size gồm hai giá trị là contain, cover --> cai này dành cho background
+object-fit: cover,contain thì cái này dành cho ảnh( thẻ img)
+
+*/
+.section-two .inner-box .inner-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.section-two .inner-box .inner-title {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+
+}
+.section-two .inner-box .inner-desc {
+    font-size: 13px;
+    /*  */
+    margin-bottom: 0;
+}
+
+/* end section two  */
