@@ -106,7 +106,7 @@
 }
 .section-two .inner-box:hover .inner-icon {
     background: var(--color-two);
-    
+
 }
 /* 
 backgroung-size gồm hai giá trị là contain, cover --> cai này dành cho background
@@ -132,3 +132,27 @@ object-fit: cover,contain thì cái này dành cho ảnh( thẻ img)
 }
 
 /* end section two  */
+/* section three  */
+.section-three {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.section-three .inner-iamge {
+    text-align: center;
+}
+.section-three .inner-iamge img {
+    max-width: 100%;
+    height: auto;
+}
+.section-three .inner-content .inner-title  {
+    font-size: 28px;
+    margin-bottom: 25px;
+
+}
+.inner-border-bottom {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+/* end section three  */
